@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Burst</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100&display=swap"
+    rel="stylesheet">
+  <style>
+    .font-lato {
+      font-family: 'Lato', sans-serif;
+
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/65a0635020.js" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'fruit-primary': '#F85559',
+
+
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body class="font-lato">
+  <header class="mx-24">
+    <nav class="text-white bg-fruit-primary mt-10 rounded-full p-5">
+      <div class="flex justify-between px-4">
+
+        <ul class="flex gap-x-4 items-center font-medium text-sm">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Shop</li>
+          <li>Contact </li>
+        </ul>
+
+
+
+        <div class="flex items-center gap-x-2">
+          <img src="images/logo.png" alt="" class="h-10">
+          <h1 class="text-3xl font-extrabold">Fruit Burst</h1>
+        </div>
+
+        <div class="relative flex items-center">
+          <input type="text"
+            class="bg-white- rounded-full pl-8 pr-3 py-2 focus:outline-none focus:ring-2 focus:ring-white"
+            placeholder="Search...">
+          <button class="absolute right-0 top-0 mt-3 mr-4">
+            <svg class="h-4 text-gray-400 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path
+                d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+            </svg>
+
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </nav>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
